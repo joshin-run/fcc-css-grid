@@ -11,6 +11,12 @@
 	color: blue;
 }
 
+.border-container
+{
+	border-style: solid;
+	color: blue;
+}
+
 .border-row
 {
 	border-style: solid;
