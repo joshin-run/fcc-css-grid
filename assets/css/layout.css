@@ -1,0 +1,55 @@
+
+/*----------------
+layout
+------------------*/
+/* container */
+
+
+
+.container--banner
+{
+ padding-right: 0px;
+ padding-left: 0px;
+ margin: auto;
+}
+
+/* row */
+.row--sp
+{
+	clear: both;
+	overflow: hidden;
+}
+
+/* row colors */
+
+.row--cream { background: #1de5be; }
+.row--banner { background: #1bb3f5; }
+.row--blue { background: #1bb3f5; }
+/* row sizing */
+
+.row--padding
+{
+ margin: 0;
+ padding-top: 0;
+ padding-bottom: 4em;
+ text-align: center;
+}
+
+.row--padding-wide
+{
+ margin: auto;
+	padding-top: 15em;
+	padding-bottom: 15em;
+ text-align: center;
+}
+
+.col-narrow,
+.col-medium,
+.col-wide
+{
+  margin: 0 auto;
+}
+
+.col-narrow { max-width: 34em; }
+.col-medium { max-width: 52em; }
+.col-wide { max-width: 72em; }
