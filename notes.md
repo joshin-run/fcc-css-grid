@@ -56,3 +56,9 @@
 ### Resources
 - CSS Grid Garden
 - placehold.it
+
+
+
+
+### more notes
+- grid-area accepts four values separated by slashes: grid-row-start, grid-column-start, grid-row-end, followed by grid-column-end.
