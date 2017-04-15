@@ -5,15 +5,6 @@
   background-color: white;
   padding: 20px;
 }
-.header--projects {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-color: orange;
-  color: #fff;
-  text-align: center;
-}
 .box-1 {
   display: flex;
   justify-content: center;
@@ -21,12 +12,6 @@
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   background-color: red;
-}
-.box-2 {
-  /*grid-area: 2 / 3 / 3 / 4;*/
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
-  background-color: pink;
 }
 .dev-text {
   display: flex;
