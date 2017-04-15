@@ -1,3 +1,14 @@
+
+
+a:hover {
+  text-decoration: none;
+}
+.white-space {
+  height: 350px;
+  width: 100%;
+  background-color: lightblue;
+}
+
 .container--projects {
   display: grid;
   grid-template-columns: auto 250px 250px 250px auto;
@@ -73,12 +84,16 @@
   text-align: center;
 }
 .diff-grid-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 1 / 4;
   grid-row: 1 / 2;
   background-color: black;
   color: white;
   text-align: center;
-  padding: 0px;
+  padding-top: 0px;
+  margin: 0px;
 }
 .diff-right {
   grid-column: 3 / 4;
@@ -97,16 +112,18 @@
   font-size: 1.255em;
   color: lightblue;
   font-weight: bold;
+  text-decoration: none;
 }
 .links2 {
   grid-column: 7 / 8;
   grid-row: 4 / 5;
-  background-color: lightgreen;
+  background-color: powderblue;
   padding: 20px;
   padding-top: 0px;
   font-size: 1.255em;
   color: brown;
   font-weight: bold;
+  text-decoration: none;
 }
 .proof {
   grid-column: 8 / 9;
@@ -123,6 +140,9 @@
   border: 1px solid black;
 }*/
 .the-three-steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 .the-three-1 {
@@ -139,7 +159,7 @@
   grid-row: 2 / 3;
   background-color: #679869;
   color: lightgray;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
   vertical-align: baseline;
 }
@@ -148,7 +168,7 @@
   grid-row: 3 / 4;
   background-color: #248aa3;
   color: lightgray;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
 }
 .the-three-4 {
@@ -156,6 +176,6 @@
   grid-row: 4 / 5;
   background-color: #526e75;
   color: lightgray;
-  font-size: 2em;
+  font-size: 1.75em;
   text-align: center;
 }

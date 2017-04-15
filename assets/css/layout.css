@@ -4,7 +4,10 @@ layout
 ------------------*/
 /* container */
 
-
+.nav-style {
+  font-size: 1.255em;
+  font-family: 'futura';
+}
 
 .container--banner
 {
