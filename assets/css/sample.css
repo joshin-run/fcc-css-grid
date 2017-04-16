@@ -1,4 +1,4 @@
-.container-projects {
+.container-sample {
   display: grid;
   grid-template-columns: auto 250px 250px 250px auto;
   grid-template-rows: 75px 250px 250px 75px;
@@ -6,7 +6,7 @@
   padding: 40px;
 }
 
-.header-projects {
+.header-sample {
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -14,7 +14,7 @@
   background-color: #f1f1f1;
 }
 
-.header-projects p {
+.header-sample p {
   color: #2F2F4F;
   font-size: 3em;
   text-align: center;
@@ -37,11 +37,13 @@
   grid-row: 2 / 3;
   background-color: orange;
 }
+
 .proj-upper-2 {
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   background-color: red;
 }
+
 .proj-upper-3 {
   grid-column: 4 / 5;
   grid-row: 2 / 3;
@@ -53,11 +55,13 @@
   grid-row: 3 / 4;
   background-color: lightgreen;
 }
+
 .proj-lower-2 {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
   background-color: lavender;
 }
+
 .proj-lower-3 {
   grid-column: 4 / 5;
   grid-row: 3 / 4;
