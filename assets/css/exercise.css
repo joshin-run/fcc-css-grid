@@ -1,10 +1,10 @@
-.container-exersize {
+.container-exercise {
   display: grid;
   grid-template-columns: auto 250px 250px 250px auto;
   grid-template-rows: 75px 250px 250px 75px;
   background-color: pink;
 }
-.header-exersize {
+.header-exercise {
   display: flex;
   justify-content: center;
   align-items: center;
