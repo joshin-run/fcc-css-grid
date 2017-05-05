@@ -6,6 +6,14 @@
   padding: 40px;
 }
 
+/*.container-sample {
+  display: grid;
+  grid-template-columns: auto 250px 250px 250px auto;
+  grid-template-rows: 75px 250px 250px 75px;
+  background-color: #f1f1f1;
+  padding: 40px;
+}*/
+
 .header-sample {
   grid-column-start: 2;
   grid-column-end: 5;
@@ -67,3 +75,15 @@
   grid-row: 3 / 4;
   background-color: pink;
 }
+
+
+@media query (max....)
+  25% for each squares
+  have minimum on the cards
+
+  .cards {
+    width-min: 25px;
+  }
+
+
+is there a grid min and max ...
